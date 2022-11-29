@@ -40,5 +40,47 @@
         "nome": "Goleador da Suíça",
         "email": "goleador7@suica.com",
         "senha": "$2b$10$I0x18K59hKvOUR3jFbBaX./CQ.RIwnm4xsYCcSUbEGtIC8BUG6xZW"
+    },
+    {
+        "id": 10,
+        "nome": "Sérgio",
+        "email": "moura@digitalhouse.com",
+        "senha": "$2b$10$k.9ZgJ0upMJatJp8pKJS1erBBefyGBmt.PjfNVr1UomLJdxbvOEHG"
+    },
+    {
+        "id": 11,
+        "nome": "asdasd",
+        "email": "asdasd",
+        "senha": "$2b$10$VFhU5fhfYK7C9xZm0P.dGu9VUrxNmBdWr8Ot2oSU63E2jd9T4FUuW"
+    },
+    {
+        "id": 12,
+        "nome": "Sérgio",
+        "email": "smoura@digitalhouse.com",
+        "senha": "$2b$10$xhmj.U5uQpKILS3RJfs6jupRK1Qd/xdgu4hukINV5G2hGOU7auEh6"
+    },
+    {
+        "id": 13,
+        "nome": "Sérgio",
+        "email": "smoura3@digitalhouse.com",
+        "senha": "$2b$10$Wecqfa5aop2NNOgQuJfP4ObjioWRbjO3yLKlN.sT/tkRBIPdDU2Gm"
+    },
+    {
+        "id": 14,
+        "nome": "Sérgio",
+        "email": "smouracalmon@teste.com",
+        "senha": "$2b$10$1B3wgNQ5wSVVp0elgaZizOmp.k6nCr6iBKO2LG8OH80LWK7Lg4gXe"
+    },
+    {
+        "id": 15,
+        "nome": "João",
+        "email": "joao@joao.com",
+        "senha": "$2b$10$bH/.nS0ruypqGmlES8izQuh46D3aJJtdP/GZImEerdysdhxl9mlSu"
+    },
+    {
+        "id": 16,
+        "nome": "Teste 1",
+        "email": "teste1@teste.com",
+        "senha": "$2b$10$LIJW6IcFwK9NPJFIUTmALuxiA0D/ciZ8PQcAACMYw84HLXqRpnnZm"
     }
 ]
