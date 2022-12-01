@@ -7,8 +7,16 @@ function save(){
     fs.writeFileSync(path.resolve(__dirname + `/${filePath}`), JSON.stringify(tarefas, null, 4));
 }
 
+function load(email){
+    const filePath = `../database/${email}-tarefas.json`
+    const tarefas = require(filePath);
+    return tarefas;
+}
+
 const TarefasController = {
     index: (req, res) => {
+        let filePath = `../database/${req.usuario.email}-tarefas.json`;
+        let tarefas = require(filePath);
         return res.send(tarefas);
     },
     store: (req, res) => {
