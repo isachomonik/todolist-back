@@ -82,5 +82,11 @@
         "nome": "Teste 1",
         "email": "teste1@teste.com",
         "senha": "$2b$10$LIJW6IcFwK9NPJFIUTmALuxiA0D/ciZ8PQcAACMYw84HLXqRpnnZm"
+    },
+    {
+        "id": 17,
+        "nome": "Teste 2",
+        "email": "teste2@teste.com",
+        "senha": "$2b$10$ef1bilb/uqwBKGskyMAr9uOT7qHFrMIhc2jbEdTarkBwJxd84h5CC"
     }
 ]
