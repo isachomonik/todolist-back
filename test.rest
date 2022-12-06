@@ -1,0 +1,20 @@
+GET http://localhost:3000/tarefas HTTP/1.1
+
+###
+
+GET https://example.com/topics/1 HTTP/1.1
+
+###
+
+DELETE http://localhost:3000/tarefas/9 HTTP/1.1
+
+###
+
+POST http://localhost:3000/tarefas HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "texto": "testando",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
