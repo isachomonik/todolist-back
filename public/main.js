@@ -59,6 +59,26 @@ async function removerTarefa(id) {
   tarefaLi.remove();
 }
 
+async function alterarTarefa(id) {
+  let resposta = await fetch(`/tarefas/${id}`,{
+    method: "UPDATE",
+  });
+
+  let tarefaLi = document.getElementById(`li_${id}`);
+
+  if(document.getElementById(`check_${id}`).checked === true){
+
+    tarefaLi.style.textDecoration = 'line-through'
+
+  } else {
+    tarefaLi.style.textDecoration = 'none'
+
+
+  }
+
+
+}
+
 form.addEventListener("submit", onFormSubmit);
 
 getTarefas();
